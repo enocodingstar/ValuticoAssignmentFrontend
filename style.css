@@ -1,0 +1,448 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parentframe{
+    background-color: white;
+    height: 3972px;
+    width: 1512px;
+}
+.headerframe{
+    background-color: white;
+    height: 135px;
+    width: 1512px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigationheader{
+    background-color: white;
+    height: 75px;
+    width: 1304.85px;
+    display: flex;
+    margin: 30px 103.15px 30px 104px;
+}
+#logo{
+    height: 23px;
+    width: 169.85px;
+    margin: 26px 118px 26px 0px;
+}
+.menuoptions{
+    background-color: white;
+    height: 47px;
+    width: 641px;
+    margin: 14px 108px 14px 0px;
+    padding: 10px 0px 10px 0px;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    gap:54px;
+}
+#homemenu{
+    color: #065666;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 900;
+    margin-left: 10px;
+}
+.dropdowns{
+    width: 134px;
+    height: 27px;
+    display: flex;
+    flex-direction: row;
+    color: #636363;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    margin-right: 16px;
+}    
+.dropdownicons{
+    height: 24px;
+    width: 24px;
+    margin: 3px 0px 0px 3px;
+    background: url(images/square.svg) center no-repeat;
+}
+.dd{
+    height: 6px;
+    width: 12px;
+    margin: 9px 6px 9px 6px;
+    color: #636363;
+}
+.demo{
+    height: 75px;
+    width: 278px;
+    background-color: #6fc247;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.demo p{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    margin: 24px 20px 24px 40px;
+}
+.tickbox{
+    height: 24px;
+    width: 24px;
+    margin: 27px 40px 24px 0px;
+    display: flex;
+    justify-self: center;
+    align-self: flex-end;
+    background: url(images/square.svg) center no-repeat;
+    background-size: 24px;
+}
+.opensquare{
+    height:16px;
+    width:16px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    background: url(images/opensquare.svg) center no-repeat;
+    background-size: contain;
+}
+.info{
+    background-color: white;
+    height: 174px;
+    width: 971px;
+    margin: 64px 271px 32px 270px;
+}
+ .info h1{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: #373737;
+    text-align: center;
+}
+.infoparagraph{
+    background-color: white;
+    height: 129px;
+    width: 971px;
+    margin: 32px 271px 32px 270px;
+}
+.infoparagraph p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: #373737;
+    text-align: center;
+}
+.buttons{
+    background-color: white;
+    height: 75px;
+    width: 588px;
+    margin: 32px 458px 64px 466px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.login{
+    height: 75px;
+    width: 278px;
+    border: 1px solid #6fc247;
+    border-radius: 16px;
+    padding: 24px 71.5px 24px 71.5px;
+    justify-content: center;
+    align-items: center;
+}
+.login p{
+    color: #6fc247;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.laptop{
+    height: 637px;
+    width: 1260px;
+    margin: 64px 126px 0px 126px;
+}
+.totalframe{
+    height: 789px;
+    width: 1512px;
+    margin: 0px;
+}
+.headandsub{
+    height: 120px;
+    width: 1062px;
+    margin: 119px 225px 32px 225px;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    height: 44px;
+    width: 849px;
+    margin: 0px 106.5px 16px 106.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: xx-large;
+    color: #373737;
+}
+.subtext{
+    height: 60px;
+    width: 1062px;
+}
+.subtext p{
+    font-family: 'Manrope', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    color: #373737;
+}
+.companylist{
+    height: 399px;
+    width: 1282px;
+    background-color: white;
+    margin: 32px 115px 119px 115px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.rows{
+    height: 117px;
+    width: 1282px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+.logos{
+    height: 117px;
+    width: 307px;
+    background-color: #F9F9F9;
+}
+#Allinial{
+    padding: 0px 48.06px;
+}
+#Oaklins{
+    padding: 0px 48.06px;
+}
+#RussellBedford{
+    padding: 29px 35px;
+}
+#Crowe{
+    padding: 0px 48.12px 0px 48px;
+}
+#BCRH{
+    padding: 0px 77px 0px 76px;
+}
+#Praxity{
+    padding: 34px 39px 33px 38px;
+}
+#bakertilly{
+    padding: 0px 54px;
+}
+#standardchartered{
+    padding: 14px 68.29px 13px 67.29px;
+}
+#Pandea{
+    padding: 0px 77px 0px 76px;
+}
+#globalMA{
+    padding: 0px 77px 0px 76px;
+}
+#CDI{
+    padding: 0px 77px 0px 76px;
+}
+#Rodl{
+    padding: 0px 40px 0px 39px;
+}
+.whyvaluticoframe{
+    height: 456px;
+    width: 1512px;
+    background-color: #111111;
+    margin: 0px;
+    padding: 72px 103px;
+}
+.whyvalutico{
+    height: 312px;
+    width: 1306px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.headerandsubtext{
+    height: 131px;
+    width: 893px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.whyvaluticoheader{
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.whyvaluticoparagraph{
+   height: 60px;
+   width: 893px;
+   margin: 0px;
+   align-self: flex-end;
+}
+.whyvaluticoparagraph p{
+    font-family: 'Manrope',sans-serif;
+    margin: 0px;
+    color: #d7d7d7;
+}
+.list{
+    height: 117px;
+    width: 1306px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.secure{
+    height: 117px;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.secure h3{
+    color: white;
+    font-family: 'Manrope',sans-serif;
+}
+.secure p{
+    font-family: 'Manrope', sans-serif;
+    color: #d7d7d7;
+}
+.reliable{
+    height: 117px;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.reliable h3{
+    color: white;
+    font-family: 'Manrope',sans-serif;
+}
+.reliable p{
+    color: #d7d7d7;
+    font-family: 'Manrope', sans-serif;
+}
+.dedicatedtoyoursuccess{
+    height: 101px;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.dedicatedtoyoursuccess h3{
+    color: white;
+    font-family: 'Manrope',sans-serif;
+}
+.dedicatedtoyoursuccess p{
+    color: #d7d7d7;
+    font-family: 'Manrope', sans-serif;
+}
+.featuresframe{
+    height: 1189px;
+    width: 1511px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0px;
+}
+.subframe{
+    height: 936px;
+    width: 1304px;
+    margin: 80px 103px 64px 104px;
+    display: flex;
+    flex-direction: row;
+}
+.mainfeaturesframe{
+    height: 920px;
+    width: 489px;
+    background-color: white;
+    margin: 0px 85px 16px 0px;
+}
+.firstfeature{
+    height: 180px;
+    width: 489px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.firstfeature h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 34px;
+}
+.firstfeature p{
+    font-family: 'Manrope',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.others{
+    height: 693px;
+    width: 489px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.mainboxes{
+    height: 225px;
+    width: 477px;
+    background-color: white;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.realbox{
+    height: 161px;
+    width: 413px;
+}
+.realbox h3{
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+.realbox p{
+    font-family: 'Manrope',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.mainbox{
+    height: 195px;
+    width: 477px;
+    background-color: white;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.realbox3{
+    height: 131px;
+    width: 413px;
+}
+.realbox3 h3{
+    font-family: 'Manrope', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+.realbox3 p{
+    font-family: 'Manrope',sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.demoframe{
+    height: 75px;
+    width: 278px;
+    background-color: white;
+    margin: 0px 617px 34px 616px;
+}
